@@ -1,0 +1,19 @@
+{
+    "name": "yaml-to-json",
+    "version": "1.0.0",
+    "description": "NodejsConsoleApp1",
+    "main": "app.js",
+    "author": {
+        "name": ""
+    },
+    "dependencies": {
+        "commander": "^9.4.1",
+        "js-yaml": "^4.1.0"
+    },
+    "bin": {
+        "yaml-to-json": "app.js"
+    },
+    "scripts": {
+        "test": "mocha ./tests/tests.js"
+    }
+}
